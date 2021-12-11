@@ -340,6 +340,11 @@ a:hover {
   color: #5e5c5c;
 }
 
+.post_box img{
+  width: 800px;
+  height: 300px;
+}
+
 .info a:hover {
   color: #0dbfe5;
 }
