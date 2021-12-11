@@ -30,7 +30,9 @@ a:hover {
   text-decoration: none;
 }
 
-/* Главные блоки */
+/*------------------------------------
+  Главные блоки
+------------------------------------*/
 
 #wrapper {
   margin-top: 40px;
@@ -46,7 +48,7 @@ a:hover {
   z-index: 4;
 }
 
-#headerInner {
+#header_inner {
   position: relative;
   border: 0px solid #333;
   width: 1200px;
@@ -59,14 +61,14 @@ a:hover {
   margin-top: 40px;
 }
 
-#content #colLeft {
+#content #col_left {
   background: #fff;
   float: left;
   width: 800px;
   margin-right: 0px;
 }
 
-#content #colRight {
+#content #col_right {
   margin-left: 45px;
   float: left;
   width: 350px;
@@ -81,9 +83,9 @@ a:hover {
   height: 0;
 }
 
-/* Главные блоки */
+/* Верхнее правое меню */
 
-.topMenuRight {
+.top_menu_right {
   height: 57px;
   position: absolute;
   left: 0px;
@@ -91,17 +93,17 @@ a:hover {
   border: 0px solid #1FA2E1;
 }
 
-.topMenuRight ul li {
+.top_menu_right ul li {
   background: url(../images/line.png) 0px 0px no-repeat;
   float: left;
   height: 57px;
 }
 
-.topMenuRight ul {
+.top-menu_right ul {
   padding-left: 0px;
 }
 
-.topMenuRight ul li a {
+.top_menu_right ul li a {
   margin-top: 0px;
   font-weight: 100;
   border-right: 0px solid #adadad;
@@ -113,10 +115,12 @@ a:hover {
   padding: 16px 20px 21px 20px;
 }
 
-.topMenuRight ul li a:hover {
+.top_menu_right ul li a:hover {
   background: #fff;
   color: #555;
 }
+
+/* Иконки соцсетей */
 
 .share-new {
   z-index: 1;
@@ -153,7 +157,9 @@ a:hover {
   margin-right: 0px;
 }
 
-/* Логотип */
+/*------------------------------------
+  Логотип
+------------------------------------*/
 
 .logo {
   position: absolute;
@@ -161,9 +167,11 @@ a:hover {
   top: 90px;
 }
 
-/*Меню */
+/*------------------------------------
+  Главное меню
+------------------------------------*/
 
-.bottomMenu {
+.bottom_menu {
   width: 1200px;
   height: 70px;
   position: absolute;
@@ -208,7 +216,8 @@ a:hover {
   -webkit-border-radius: 5px 0px 0px 5px;
 }
 
-/*Выпадающее меню */
+/* Выпадающее меню */
+
 #dropdown_nav .sub_nav {
   z-index: 4;
   width: 180px;
@@ -241,6 +250,10 @@ a:hover {
   color: #0dbfe5;
 }
 
+/*------------------------------------
+  Последние записи
+------------------------------------*/
+
 #lpblock {
   position: relative;
   height: 105px;
@@ -248,7 +261,6 @@ a:hover {
   background: #eeeeee;
   margin: 0 auto;
   margin-top: 193px;
-  
 }
 
 #lpblock h2 {
@@ -270,7 +282,7 @@ a:hover {
   background: url(../images/raz.png) 0px 0px no-repeat;
 }
 
-.postBox {
+.post_box {
   border: 0px solid #333;
   background: #fff;
   width: 700px;
@@ -279,7 +291,7 @@ a:hover {
   margin-bottom: 50px;
 }
 
-.postBox h2 a {
+.post_box h2 a {
   font-family: "Segoe UI Semilight", "Segoe UI", Tahoma, Helvetica, sans-serif;
   color: #000;
   font-style: normal;
@@ -291,31 +303,31 @@ a:hover {
   -webkit-transition: all 0.3s 0.01s ease;
 }
 
-.postBox h2 a:hover {
+.post_box h2 a:hover {
   color: #0dbfe5;
 }
 
-.postBox .textPreview {
+.post_box .text_preview {
   border: 0px solid #333;
   width: 800px;
   margin-bottom: 30px;
 }
 
-.postBox .textPreview p {
+.post_box .text_preview p {
   margin-top: 0;
 }
 
-.postBox .postThumb {
+.post_box .post_thumb {
   margin: 0px 0px 15px 0px;
 }
 
-.postBox .postMeta {
+.post_box .post_meta {
   padding-bottom: 15px;
   clear: left;
   overflow: hidden;
 }
 
-.postBox .info {
+.post_box .info {
   width: 100%;
   margin-bottom: 21px;
   margin-top: 22px;
@@ -324,7 +336,7 @@ a:hover {
   color: #999;
 }
 
-.postBox .info a {
+.post_box .info a {
   color: #5e5c5c;
 }
 
@@ -349,6 +361,12 @@ a:hover {
   background: #000;
   color: #0dbfe5;
 }
+
+/*------------------------------------
+  Правый сайдбар 
+------------------------------------*/
+
+/* Поиск на сайте */
 
 #form-query {
   position: relative;
@@ -377,14 +395,14 @@ a:hover {
   cursor: pointer;
 }
 
-.rightBox {
+.right_box {
   margin-top: 0px;
   margin-left: 0px;
   width: 330px;
   margin-bottom: 30px;
 }
 
-.rightBox h2 {
+.right_box h2 {
   width: 335px;
   background: #f7f7f7 url(../images/h2img.png) 320px 14px no-repeat;
   font-size: 18px;
@@ -394,7 +412,7 @@ a:hover {
   padding: 10px 0 15px 20px;
 }
 
-.rightBox ul li {
+.right_box ul li {
   width: 350px;
   padding: 10px 0px;
   border-bottom: 1px solid #f6f6f6;
@@ -402,13 +420,17 @@ a:hover {
   line-height: 16px;
 }
 
-.rightBox a {
+.right_box a {
   color: #333;
 }
 
-.rightBox a:hover {
+.right_box a:hover {
   color: #0dbfe5;
 }
+
+/*------------------------------------
+  Футер
+------------------------------------*/
 
 #footer {
   margin-top: 50px;
@@ -417,7 +439,7 @@ a:hover {
   background: #0dbfe5;
 }
 
-#footerInner {
+#footer_inner {
   position: relative;
   border: 0px solid #000;
   width: 1200px;
@@ -425,23 +447,23 @@ a:hover {
   height: 100px;
 }
 
-#footerlogo {
+#footer_logo {
   position: absolute;
   left: 0px;
   top: 25px
 }
 
-.footernav {
+.footer_nav {
   position: absolute;
   right: 0px;
   top: 35px;
 }
 
-.footernav ul li {
+.footer_nav ul li {
   float: left;
 }
 
-.footernav ul li a {
+.footer_nav ul li a {
   margin-top: 0px;
   font-weight: 100;
   border-right: 0px solid #adadad;
@@ -453,6 +475,6 @@ a:hover {
   padding: 0px 0px 0px 25px;
 }
 
-.footernav ul li a:hover {
+.footer_nav ul li a:hover {
   color: #333;
 }
