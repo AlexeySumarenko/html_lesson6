@@ -11,8 +11,6 @@
   <link rel="stylesheet" href="css/style.css">
   
 
-  <!-- Begin #bottomMenu -->
-
   <script>
 
     $(function () {
@@ -35,8 +33,8 @@
 
 <body>
 
-  <!-- Начало хидер -->
-  <header class="header">
+   
+  <header class="header"> <!-- Begin header -->
     <h2 hidden>Меню сайта</h2>
     <div id="header_inner">
         <nav class="top_menu_right">
@@ -57,8 +55,8 @@
         <div class="logo">
           <a href="#"><img src="images/logo.png" alt="Блог" /></a>
         </div>
-        <!-- Начало #bottomMenu -->
-        <nav class="bottom_menu">
+       
+        <nav class="bottom_menu">  <!-- Begin #bottom_menu -->
           <h2 hidden>Нижнее меню сайта</h2>
           <ul id="dropdown_nav">
             <li><a href="#">Категория</a>
@@ -68,17 +66,16 @@
               <li><a href="#">Подменю #3</a></li>
               <li><a href="#">Подменю #4</a></li>
             </ul>
-          </li>
+            </li>
             <li><a href="#">Категория 1</a></li>
             <li><a href="#">Категория 2</a></li>
             <li><a href="#">Категория 3</a></li>
             <li><a href="#">Категория 4</a></li>
-            
           </ul>
-        </nav>
-        <!-- конец #bottomMenu -->
+        </nav> <!-- End #bottom_menu -->
+        
     </div>
-  </header>    <!-- Конец хидер -->
+  </header>    <!-- End header -->
   
   <div id="lpblock">
     <h2>Последние записи</h2>
@@ -86,15 +83,16 @@
 
 
 
-  <!-- начало врапер -->
-  <section id="wrapper">
+ 
+  <section id="wrapper">  <!-- Begin #wrapper -->
     <h2 hidden>Всё про HTML5 и CSS3</h2>
-    <div id="middle">
-      <div id="content">
-        <div id="col_left">
+    <div id="middle"> <!-- Begin #middle -->
+      <div id="content"> <!-- Begin #content -->
+        
+        <div id="col_left"> <!-- Begin #col_left -->
 
-          <!-- Начало .postBox -->
-          <article class="post_box">
+         
+          <article class="post_box">  <!-- Begin .post_box -->
             <div class="post_thumb">
               <a href="#"><img src="images/tumbs/girls/14.jpg" alt="Девушка под номером 14"/></a>
             </div>
@@ -113,11 +111,11 @@
 
             <div class="more-link"><a href="#">Далее</a></div>
             
-          </article>
-          <!-- Конец .postBox -->
+          </article> <!-- End .post_box -->
+          
           <div class="raz"></div>
-          <!-- Начало .postBox -->
-          <article class="post_box">
+          
+          <article class="post_box"> <!-- Begin .post_box -->
             <div class="post_thumb">
               <a href="#"><img src="images/tumbs/girls/15.jpg" alt="Девушка под номером 15"/></a>
             </div>
@@ -136,11 +134,11 @@
 
             <div class="more-link"><a href="#">Далее</a></div>
             
-          </article>
-          <!-- Конец .postBox -->
+          </article> <!-- End .post_box -->
+          
           <div class="raz"></div>
-          <!-- Начало .postBox -->
-          <article class="post_box">
+          
+          <article class="post_box"> <!-- Begin .post_box -->
             <div class="post_thumb">
               <a href="#"><img src="images/tumbs/girls/16.jpg" alt="Девушка под номером 16"/></a>
             </div>
@@ -159,11 +157,11 @@
 
             <div class="more-link"><a href="#">Далее</a></div>
             
-          </article>
-          <!-- Конец .postBox -->
+          </article> <!-- End .post_box -->
+          
           <div class="raz"></div>
-          <!-- Начало .postBox -->
-          <article class="post_box">
+          
+          <article class="post_box"> <!-- Begin .post_box -->
             <div class="post_thumb">
               <a href="#"><img src="images/tumbs/girls/17.jpg" alt="Девушка под номером 17"/></a>
             </div>
@@ -182,11 +180,13 @@
 
             <div class="more-link"><a href="#">Далее</a></div>
             
-          </article>
-          <!-- Конец .postBox -->
+          </article>  <!-- End .post_box -->
+         
           <div class="raz"></div>
-        </div><!-- Конец коллефт -->
-        <aside id="col_right">
+        </div> <!-- End #col_left -->
+
+       
+        <aside id="col_right">  <!-- Begin col_right -->
           <form method="get" action="/search" target="_blank">
             <input name="q" id="form-query" value="" placeholder="Поиск...">
             <input id="form-querysub" type="submit" value=""> 
@@ -226,16 +226,16 @@
             </ul>
           </div>
 
-        </aside><!-- Конец колрайт -->
+        </aside> <!-- End #col_right -->
 
-      </div><!-- Конец контент -->
-    </div><!-- Конец мидл -->
-  </section><!-- Конец врапер -->
+      </div><!-- End #content -->
+    </div><!-- End #middle -->
+  </section><!-- End #wrapper -->
 
 
-  <!-- Начало футер -->
-  <footer id="footer">
-    <div id="footer_inner">
+  
+  <footer id="footer"> <!-- Begin #footer -->
+    <div id="footer_inner"> <!-- Begin #footer_inner -->
       <div id="footer_logo">
         <a href="#"><img src="images/logo.png" alt="Блог"/></a>
       </div>
@@ -250,8 +250,8 @@
         </ul>
       </nav>
 
-    </div><!-- Конец футериннер -->
-  </footer><!-- Конец футер -->
+    </div> <!-- End #footer_inner -->
+  </footer> <!-- End #footer -->
   
  
   
